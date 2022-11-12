@@ -22,5 +22,9 @@
         <h1>Denis je tragéd</h1>
       </div>
     </div>
+    <script>
+      let denis = document.querySelector(".coolio")
+      denis.addEventListener("click", ()=>{ denis.setAttribute("style", "position: absolute;"); denis.setAttribute("style", `left: ${counter}px;`); counter += 20 ; console.log(counter); })
+    </script>
   </body>
 </html>
